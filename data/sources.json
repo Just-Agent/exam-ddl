@@ -1,0 +1,135 @@
+{
+  "topicId": "exam-ddl",
+  "generatedAt": "2026-05-15T18:03:01.931Z",
+  "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
+  "sourceFamilies": [
+    {
+      "id": "neea",
+      "name": "教育部教育考试院",
+      "url": "https://www.neea.edu.cn",
+      "adapter": "neeaAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "ielts",
+      "name": "IELTS",
+      "url": "https://ielts.org",
+      "adapter": "ieltsAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "ets",
+      "name": "ETS",
+      "url": "https://www.ets.org",
+      "adapter": "etsAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "pearson",
+      "name": "Pearson PTE",
+      "url": "https://www.pearsonpte.com",
+      "adapter": "pteAdapter",
+      "confidence": "official"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "yz.chsi.com.cn",
+      "url": "https://yz.chsi.com.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "cet.neea.edu.cn",
+      "url": "https://cet.neea.edu.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ielts.neea.cn",
+      "url": "https://ielts.neea.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "toefl.neea.cn",
+      "url": "https://toefl.neea.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ETS GRE",
+      "url": "https://www.ets.org/gre.html",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "GMAC GMAT",
+      "url": "https://www.mba.com/exams/gmat-exam",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "中国政府网",
+      "url": "https://bm.scs.gov.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ntce.neea.edu.cn",
+      "url": "https://ntce.neea.edu.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ncre.neea.edu.cn",
+      "url": "https://ncre.neea.edu.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ruankao.org.cn",
+      "url": "https://www.ruankao.org.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "cpaexam.cicpa.org.cn",
+      "url": "https://cpaexam.cicpa.org.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "AWS Certification",
+      "url": "https://aws.amazon.com/certification/",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "PMI PMP Certification",
+      "url": "https://www.pmi.org/certifications/project-management-pmp",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "CFA Institute",
+      "url": "https://www.cfainstitute.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    }
+  ]
+}
